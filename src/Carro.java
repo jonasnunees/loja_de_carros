@@ -1,5 +1,5 @@
 public class Carro {
-
+    
     private String marca;
     private String modelo;
     private int ano;
@@ -48,7 +48,7 @@ public class Carro {
         this.valor = valor;
     }
 
-    // método para inserir o valor de venda do produto
+    // método para definir o valor de venda do veículo
     public double getValorVenda(){
         return valor += valor * 30 / 100;
     }
