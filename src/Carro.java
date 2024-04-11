@@ -4,7 +4,6 @@ public class Carro {
     private String modelo;
     private int ano;
     private double valor;
-    private double valorVenda;
 
     // método construtor
     Carro(String marca, String modelo, int ano, double valor){
