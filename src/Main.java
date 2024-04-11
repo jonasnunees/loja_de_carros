@@ -20,6 +20,15 @@ public class Main{
         System.out.println("Ano: " + carro_002.getAno());
         System.out.println("Valor de venda: R$ " + carro_002.getValorVenda());
 
+        System.out.println();
+
+        // informações do vendedor
+        Vendedor vendedor_001 = new Vendedor("Luis Fernando", "Vendas", "Vendedor", 1_800);
+
+        System.out.println("Nome: " + vendedor_001.getNome());
+        System.out.println("Setor: " + vendedor_001.getSetor());
+        System.out.println("Cargo: " + vendedor_001.getCargo());
+
     }
 
 }
