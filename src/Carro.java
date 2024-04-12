@@ -52,4 +52,11 @@ public class Carro {
         return valor += valor * 30 / 100;
     }
 
+    public void status(){
+        System.out.println("Marca: " + this.getMarca());
+        System.out.println("Modelo: " + this.getModelo());
+        System.out.println("Ano: " + this.getAno());
+        System.out.println("Valor de venda: R$ " + this.getValorVenda());
+    }
+
 }

@@ -5,29 +5,21 @@ public class Main{
         Carro carro_001 = new Carro("Fiat", "Uno Mille Economy", 2013, 19_000);
 
         // informações do carro 1
-        System.out.println("Marca: " + carro_001.getMarca());
-        System.out.println("Modelo: " + carro_001.getModelo());
-        System.out.println("Ano: " + carro_001.getAno());
-        System.out.println("Valor de venda: R$ " + carro_001.getValorVenda());
+        carro_001.status();
 
         System.out.println();
 
         // informações do carro 2
         Carro carro_002 = new Carro("Volkswagen", "Gol", 2002, 12_500);
 
-        System.out.println("Marca: " + carro_002.getMarca());
-        System.out.println("Modelo: " + carro_002.getModelo());
-        System.out.println("Ano: " + carro_002.getAno());
-        System.out.println("Valor de venda: R$ " + carro_002.getValorVenda());
+        carro_002.status();
 
         System.out.println();
 
         // informações do vendedor
         Vendedor vendedor_001 = new Vendedor("Luis Fernando", "Vendas", "Vendedor", 1_800);
 
-        System.out.println("Nome: " + vendedor_001.getNome());
-        System.out.println("Setor: " + vendedor_001.getSetor());
-        System.out.println("Cargo: " + vendedor_001.getCargo());
+        vendedor_001.status();
 
     }
 
